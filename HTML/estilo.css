@@ -1,0 +1,23 @@
+table, th,td{
+    color:red;
+    border: 6px solid red;
+}
+ th,td{
+    color:red;
+    border: 1px solid blue;
+}
+
+#imagen{
+    text-align: center;
+}
+
+.clasecolorrojo
+{
+    color:red;
+}
+
+/* esto es un comentario en CSS*/
+
+body{
+    background-color: aqua;
+}

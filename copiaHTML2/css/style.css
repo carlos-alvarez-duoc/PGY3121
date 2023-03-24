@@ -1,0 +1,43 @@
+*{font-family: sans-serif;}
+a:hover{
+    color:red;
+}
+
+#menu{
+    background-color: rgb(124, 131, 110);
+    width: 20%;
+    height: 600px;
+    float: left;
+}
+
+#contenedor{
+    background-color: rgb(124, 131, 110);
+    width: 80%;
+    height: 600px;
+    float: right;
+}
+#div1{
+    background-color:rgb(44, 179, 134);
+    width: 80%;
+    height: 150px;
+    
+    
+}
+#div2{
+    background-color: blanchedalmond;
+    width: 80%;
+    height: 150px;
+    
+}
+#div3{
+    background-color: chartreuse;
+    width: 80%;
+    height: 150px;
+    
+}
+#div4{
+    background-color: blueviolet;
+    width: 80%;
+    height: 150px;
+    
+}
