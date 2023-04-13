@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+<body>
+    <h1>Formulario</h1>
+    <form action="otrapagina.html" method="post">          <!--placeholder muestra un texto en el input-->
+        <p><label for="nombre">Nombre: <input type="text" placeholder="Ingrese su Nombre" id="nombre"></label></p> <!--id nombre asocia el input al label nombre-->
+        <p><label for="apellido">Apellido: <input type="text" id="apellido"></label></p>
+        <p><label for="edad">Edad: <input type="text" id="edad"></label></p>
+        <p><label for="email">Email: <input type="email" id="email"></label></p>
+        <p><label for="pass">Password: <input type="password" id="pass"></label></p>
+        <p><label for="comentarios">Comentarios <br><textarea name="" id="comentarios" cols="45" rows="10"></textarea></label></p>
+
+        <p><label>Previsión:
+            <select id="prevision">
+                <option value="Fonasa">Fonasa</option>
+                <option value="MasVida">MasVida</option>
+                <option value="Banmedica">Banmedica</option>
+                <option value="CruzBlanca">CruzBlanca</option>
+                <option value="Otra">Otra</option>
+            </select>
+        </label></p>
+
+        <input type="checkbox" value="soyhumano">
+        <label>Soy Humano</label>
+        <br>
+        <br>
+        
+        <button type="submit">Enviar</button> <!--botón tipo submit-->
+    </form>
+</body>
+</html>
