@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+<body>
+    <div class="container">
+        
+       <form class="row">
+
+        <div class="col-6">
+            
+            <label for="rutinput" class="form-label">RUT:</label>
+            <input type="text" class="form-control" id="rutinput" placeholder="Ingrese su rut">
+        </div>
+        <br>
+        <div class="col-6">
+            <label for="nomnbreinput" class="form-label">Nombre completo:</label>
+            <input type="text" class="form-control" id="nombreinput" placeholder="Escriba su nombre">
+        </div>
+        <br>
+        <div class="col-12">
+            <label for="emalinput" class="form-label">Email:</label>
+            <input type="email" class="form-control" id="emailinput" placeholder="ejemplo@gmail.com">
+        </div>
+        <br>
+        <div class="col-6">
+            <label for="celularinput" class="form-label">Celular: +56 9</label>
+            <input type="text" class="form-control" id="celularinput" placeholder="Ingrese su celular">
+        </div>
+        
+        <p><label>Motivo de consulta:
+            <select id="motivo">
+                <option value="sugerencia">Sugerencia</option>
+                <option value="reclamo">Reclamo</option>
+                <option value="felicitaciones">Felicitaciones</option>
+                <option value="Otra">Otra</option>
+            </select>
+        </label></p>
+
+        <div class="form-check">
+            <p>¿Eres cliente nuevo o antiguo?</p>       <!--radios-->
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              Nuevo cliente
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+              Cliente antiguo
+            </label>
+          </div>
+        <br>
+        <div class="col-6">
+            <label for="fechainput" class="form-label">Fecha de consulta:</label>
+            <input type="date" class="form-control" id="fechainput" placeholder="dd/mm/aaaa">
+        </div>
+        <br>
+        <div class="d-grid gap-2 d-md-block">   <!--boton enviar y limpiar campos-->
+            <button class="btn btn-primary" type="button">Enviar</button>
+            <button type="button" class="btn btn-primary">Limpiar campos </button>
+        </div>
+            
+       </form>
+    </form>
+</div>
+</body>
+</html>
