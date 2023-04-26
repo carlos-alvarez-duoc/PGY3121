@@ -1,0 +1,97 @@
+*{font-family:sans-serif;  }   /*se utiliza el selector universal*/
+
+body{
+    background-color: rgb(37, 35, 35);
+}
+
+.menu-vertical {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    list-style: none;
+    height: 100%;
+   
+  }
+  
+  .menu-vertical li {
+    margin-bottom: 10px;
+  }
+  
+  .menu-vertical li a {
+    display: block;
+    background-color: #eee;
+    padding: 10px;
+    color: #da1515;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .menu-vertical li a:hover {
+    background-color: #ccc;
+  }
+
+
+#div1{
+    height: 25%;
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color:rgb(15, 234, 234);
+    border: solid rgb(15, 234, 234);
+    
+    max-width: 80%;
+    float: right;
+    position: relative;
+}
+
+#div2{
+    height: 25%;
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color:rgb(164, 232, 18);
+    border: solid rgb(164, 232, 18);
+    
+    max-width: 80%;
+    float: right;
+    position: relative;
+}
+#div3{
+    height: 25%;
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color:rgb(206, 146, 17);
+    border: solid rgb(206, 146, 17);
+    
+    max-width: 80%;
+    float: right;
+    position: relative;
+}
+#div4{
+    height: 25%;
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color:rgb(255, 0, 0);
+    border: solid rgb(255, 0, 0);
+   
+    max-width: 80%;
+    float: right;
+    position: relative;
+    
+}
+
+
+
+
+
+a:hover{/*al colocar el mouse por encima las letras cambian de color "Pseudoclase"*/
+    color: rgb(187, 174, 174);
+}
+
+

@@ -1,0 +1,46 @@
+*{font-family:sans-serif;  }   /*se utiliza el selector universal*/
+
+#menu{
+    background-color:rgb(37, 35, 35);
+    width: 20%;
+    float:left;
+    height: 600px;
+    
+}
+#contenedor{
+    background-color:
+    rgb(37, 35, 35);
+    width: 80%;
+    height: 600px;
+    float: right;
+    
+}
+#div1{
+
+    background-color:rgb(94, 139, 139);
+    width: 80%;
+    height: 25%;
+    
+    
+}
+
+#div2{
+    background-color: rgb(194, 194, 12);
+    width: 80%;
+    height: 25%;
+}
+#div3{
+    background-color:rgb(206, 140, 17);
+    width: 80%;
+    height: 25%;
+}
+#div4{
+    background-color: rgb(192, 10, 10);
+    width: 80%;
+    height: 25%;
+}
+a:hover{/*al colocar el mouse por encima las letras cambian de color "Pseudoclase"*/
+    color: rgb(187, 174, 174);
+}
+
+

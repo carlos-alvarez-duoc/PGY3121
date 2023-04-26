@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página web mis peludos</title>
+
+    <link rel="stylesheet" href="css/style.css">    <!--hace referencia al archivo css-->
+</head>
+<body>
+    
+    <main> <!--el main sienpre se hace-->
+        <div id="menu">
+            <a href="#">Inicio</a><br>
+            <a href="#">Nosotros</a><br>
+            <a href="#">parros</a><br>
+            <a href="#">Gatos</a><br>
+            <a href="#">Contacto</a>
+        </div>
+
+        <div id="contenedor">
+            <div id="div1"><h3>Contenedor 1</h3></div>
+            <div id="div2"><h3>Contenedor 2</h3></div>
+            <div id="div3"></div>
+            <div id="div4"></div>
+
+        </div>
+    </main>
+
+</body>
+</html>
